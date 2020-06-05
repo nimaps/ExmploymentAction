@@ -125,6 +125,15 @@ public class LoginPageController implements Initializable
 	    			alert.showAndWait();
 	        	}
         	} 
+        	else
+        	{
+        		String s = "Invalid Username";
+    			Alert alert = new Alert(AlertType.ERROR);
+    			alert.getDialogPane().setMinHeight(Region.USE_PREF_SIZE);
+    			alert.setContentText(s);
+    			alert.setTitle("Error");
+    			alert.showAndWait();
+        	}
         }
         catch (Exception e)
         {
