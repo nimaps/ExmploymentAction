@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.adminPage.PersonalInfoAdminPageController">
+    <children>
+        <AnchorPane prefHeight="538.0" prefWidth="1021.0" style="-fx-background-color: #424242; -fx-background-radius: 25;">
+            <children>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="87.0" prefHeight="47.0" prefWidth="176.0" text="First name" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="134.0" prefHeight="47.0" prefWidth="176.0" text="Last name" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="181.0" prefHeight="47.0" prefWidth="176.0" text="Father name" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="228.0" prefHeight="47.0" prefWidth="176.0" text="National Id" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="275.0" prefHeight="47.0" prefWidth="176.0" text="City" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="511.0" layoutY="87.0" prefHeight="47.0" prefWidth="176.0" text="Personnel Id" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="511.0" layoutY="134.0" prefHeight="47.0" prefWidth="176.0" text="Password" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="511.0" layoutY="181.0" prefHeight="47.0" prefWidth="176.0" text="Marital status" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="511.0" layoutY="228.0" prefHeight="47.0" prefWidth="176.0" text="Children number" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="511.0" layoutY="275.0" prefHeight="47.0" prefWidth="176.0" text="Degree of education" textFill="#18ffff">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txtFirstName" layoutX="276.0" layoutY="95.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtLastName" layoutX="276.0" layoutY="144.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtFatherName" layoutX="276.0" layoutY="191.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtNationalId" layoutX="276.0" layoutY="238.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtCity" editable="false" layoutX="276.0" layoutY="285.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtPersonnelId" editable="false" layoutX="687.0" layoutY="95.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="txtPassword" layoutX="687.0" layoutY="144.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </PasswordField>
+                <TextField fx:id="txtMaritalStatus" editable="false" layoutX="687.0" layoutY="191.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtChildrenNumber" editable="false" layoutX="687.0" layoutY="238.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="txtDegreeOfEducation" editable="false" layoutX="687.0" layoutY="285.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </TextField>
+                <Button fx:id="btnUpdateInfo" alignment="CENTER" layoutX="423.0" layoutY="379.0" onAction="#updateInfo" prefHeight="47.0" prefWidth="176.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;" text="Update Info">
+                    <font>
+                        <Font name="Arial Bold" size="20.0" />
+                    </font>
+                </Button>
+            <ComboBox fx:id="comboLoadEmployees" layoutX="276.0" layoutY="42.0" prefHeight="26.0" prefWidth="603.0" onAction="#getInfo" />
+            <Button fx:id="btnLoadEmployees" alignment="CENTER" layoutX="54.0" layoutY="39.0" onAction="#loadEmployees" prefHeight="32.0" prefWidth="196.0" style="-fx-background-color: #18ffff; -fx-background-radius: 25;" text="Load Employees">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
